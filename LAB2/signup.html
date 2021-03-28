@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" type = "text/css" href="main.css">
+</head>
+<body>
+    <div class="welcome">Welcom to <div class="shop_name">SeoJeong's Online Shop</div></div>
+
+    <div class="container">
+        <div class="menu">회원가입 페이지       
+            <div class="btn"> <!-- signup페이지에서 login페이지로 가는 버튼 -->
+                <a class="goto_btn" href="login.html">Login Page</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="form">
+            <form method="GET" action="http://www.example.com">
+
+                <p> 
+                    <label>이름 : </label> <!-- autofocus -->
+                    <input name="name" type="text" size="10" maxlength="20" placeholder="이름" autofocus autocomplete="on">
+                </p>
+
+                <p>
+                    <label>생년월일 : </label>
+                    <input name ="birth" type ="date">
+                </p>
+
+                <p>
+                    <label>전화번호 : </label> <!-- pattern -->
+                    <input name="tel" type="tel" placeholder="010-1234-5678" pattern="\d{3}-\d{4}-\d{4}" autocomplete="on" required>
+                </p>
+
+                <p>
+                    <label>이메일 : </label>  <!-- autocomplete -->
+                    <input name="email" type="email" size="25" placeholder="email@domain.com" autocomplete="on" required>
+                </p>
+
+                <p>
+                    <label>아이디 : </label> <!-- required -->
+                    <input name="id" type ="text" size="20" maxlength="20" placeholder="아이디를 입력해주세요" required>
+                </p>
+
+                <p>
+                    <label>비밀번호:</label> <!-- placeholder -->
+                    <input name="password" type="password" size ="20" maxlength="20" placeholder ="비밀번호를 입력해주세요" required>
+                </p>
+
+                <p>
+                    <label>비밀번호 확인: </label> <!-- size, maxlength -->
+                    <input name="confirm_pw" type="password" size ="20" maxlength="20" placeholder ="다시한번 입력해주세요" required>
+                </p>
+
+                <p>
+                    개인정보 활용 동의<br>
+                    <label class ="private_info"> <input name="private_info" type="checkbox" value="must" required> (필수) 회원가입 이용 동의</label> <br>
+                    <label class ="private_info"> <input name="private_info" type="checkbox" value="margeting"> (선택) 마케팅 이용 동의</label>
+                </p>
+
+                <p>
+                    <input id ="submit_btn" type="submit" value="SignUp">
+                    <input id ="reset_btn" type="reset" value="Reset">
+                </p>
+            </form>
+        </div>
+
+    </div>
+    
+
+</body>
+</html>

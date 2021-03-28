@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Pacifico&display=swap');
+
+body{
+    background-color: rgb(53, 55, 71);
+}
+.welcome{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(220, 255, 93);
+    text-shadow: 1px 1px 3px rgb(7, 41, 0);
+    margin-bottom: 0;
+}
+.shop_name{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    color:rgb(255, 204, 36);
+    text-shadow: 1px 1px 3px rgb(80, 48, 17);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.btn{
+    border : none;
+    border-radius: 12px;
+    background-color:rgb(179, 219, 84);
+    padding: 8px 20px 8px 20px;
+    margin-left: 60%;
+    box-shadow: 3px 3px 3px rgb(122, 114, 63);
+    width:160px;
+    text-align: center;
+}
+
+.goto_btn{
+    text-decoration-line: none;
+    color:rgb(65, 65, 29);
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.container{
+    background-color: rgb(228, 227, 217);
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 20px;
+    margin : 10px 9% 10px 9%;
+    padding : 4%;
+}
+
+.menu{
+    color:rgb(65, 65, 29);
+    font-size: 33px;
+    font-weight: lighter;
+    margin-left : 40%;
+}
+
+.form{
+    padding-left:100px;
+}
+#submit_btn, #reset_btn{
+    text-decoration-line: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    border : none;
+    border-radius: 9px;
+    box-shadow: 3px 3px 3px rgb(122, 114, 63);
+    width:100px;
+    height:50px;
+    margin-top:20px;
+    color:rgb(7, 41, 0);
+}
+#submit_btn{
+    margin: 0 50px 0 0;
+    background-color: rgb(255, 198, 12);
+}
+#reset_btn{
+    background-color: rgb(197, 14, 100);
+}
+
+input{
+    font-size: 15px;
+    border : inset 3px white;
+    border-radius: 6px;
+    font-family: 'Do Hyeon', sans-serif;   
+    font-weight: lighter;
+}
+
+.private_info{
+    font-size: 15px;
+    color:rgb(122, 122, 122)
+}
