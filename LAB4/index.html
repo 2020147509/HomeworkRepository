@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" type = "text/css" href="main.css">
+
+    <script src = "script.js"></script>
+
+</head>
+<body>
+    <div class="flex-container">
+        <header>
+
+           SeoJeong's Online Shop
+        </header>
+        
+        <nav> 
+            <a href="index.html" >Main Page</a>
+            <a href="login.html" >Login Page</a>
+            <a href="signup.html">SignUp Page</a>
+        </nav>
+
+        <div class = "main">
+            <div class = "side">
+                <div class = "filter">
+                    <label>Choose a category :</label>
+                    <select id="category">
+                        <option selected>All</option>
+                        <option value="Novel">Novel</option>
+                        <option value="Science">Science</option>
+                        <option value="Self help">Self help</option>
+                        <option value="Margeting">Margeting</option>
+                    </select>
+                </div>
+                <div class = "filter">
+                    <label>Enter search term :</label>
+                    <input type="text" id = "searchTerm" placeholder = "e.g. the">
+        
+                </div>
+                <button id = "filterbtn">Filter Results</button>
+                   
+            </div>
+
+            <div class = "content"> </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>You can purchase these books at  <a href="https://www.aladin.co.kr/home/wforeignmain.aspx"><em>Aladin</em></a>
+        </div>
+    </footer>
+</body>
+
+
+</html>

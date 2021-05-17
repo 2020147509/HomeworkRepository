@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;400&family=Quicksand:wght@300&display=swap');
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 55, 71);
+
+}
+.welcome{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 40px;
+    text-align: center;
+    color:rgb(220, 255, 93);
+    text-shadow: 1px 1px 3px rgb(7, 41, 0);
+    margin-bottom: 0;
+}
+.shop_name{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 50px;
+    text-align: center;
+    color:rgb(255, 204, 36);
+    text-shadow: 1px 1px 3px rgb(80, 48, 17);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.btn{
+    border : none;
+    border-radius: 12px;
+    background-color:rgb(179, 219, 84);
+    box-shadow: 3px 3px 3px rgb(122, 114, 63);
+    width:160px;
+    text-align: center;
+}
+
+.goto_btn{
+    text-decoration-line: none;
+    color:rgb(65, 65, 29);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight:600;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(228, 227, 217);
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 20px;
+    width :1020px;
+    /* margin : 10px 9% 10px 9%; */
+    /* padding : 4%; */
+}
+
+
+.btns{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.btns input {
+    text-decoration-line: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border : none;
+    border-radius: 9px;
+    box-shadow: 3px 3px 3px rgb(122, 114, 63);
+    width:100px;
+    height:50px;
+    margin-top:20px;
+    color:rgb(7, 41, 0);
+}
+#submit_btn{
+    /* margin: 0 50px 0 0; */
+    background-color: rgb(255, 198, 12);
+}
+#reset_btn{
+    background-color: rgb(197, 14, 100);
+}
+
+.menu{
+    
+    color:rgb(65, 65, 29);
+    font-size: 33px;
+    font-weight: lighter;
+    margin-top : 30px;
+    text-align: center;
+
+    width:800px;
+}
+
+input{
+    font-size: 15px;
+    border : inset 3px white;
+    border-radius: 6px;
+    font-family: 'Do Hyeon', sans-serif;   
+    font-weight: lighter;
+}
+
+.private_info{
+    font-size: 15px;
+    color:rgb(122, 122, 122)
+}
+
+
+
+/* index.html */
+
+
+.flex-container{
+    color:white;
+    display : flex;
+    width : 1020px;
+    flex-direction: column;
+    align-items : center;
+    justify-items: center;
+    background-color: rgb(182, 205, 50);
+    /* padding:10px; */
+    
+}
+.flex-container > *{
+    margin-bottom: 10px;
+}
+header{
+    margin-top: 20px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 40px;
+    width:1020px;
+    text-align: left;
+    position: relative;
+    animation: sliding 2s;
+}
+
+@keyframes sliding {
+    0%{ right:-1040px; }
+    100%{ right:0px; }
+}
+
+nav{
+    margin-top: 15px;
+    width:950px;
+    background-color: rgb(250, 255, 183);
+    border-top: rgb(56, 49, 9) solid 2px;
+    border-bottom: rgb(56, 49, 9) solid 2px;
+    padding: 3px 0 3px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration-line: none;
+    color:rgb(56, 49, 9);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+}
+
+
+
+.main{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width:1000px;
+    color:black;
+    padding:10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+}
+
+.side{
+    margin-top: 20px;
+    width: 240px;
+    height:190px;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+    font-size: 18px;
+    background-color: rgb(253, 239, 220);
+    padding: 20px;
+    border:solid rgb(116, 134, 15) 2px;
+}
+
+.filter *{
+    display: block;
+    margin-bottom:8px;
+    width:100%;
+}
+.filter input{ width : 95%;}
+
+.side button{
+    border-top-color: rgb(77, 57, 45);
+    border-left: none; border-right: none;
+    border-radius: 8px;
+    background-color:rgb(255, 173, 141);
+    padding: 4px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+    font-size: 18px;
+    margin-top: 10pt;
+}
+
+
+.content{
+    margin-top: 20px;
+    display : flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    width:630px;
+    color:black;
+    padding:10px;   
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+    text-align: center;
+    border:solid rgb(116, 134, 15) 2px;
+    background-color: rgb(255, 199, 173);
+    
+}
+
+.product{
+    width:290px;
+    height: 380px;
+    margin:5px 2px 15px 5px;
+    position: relative;
+    display: flex;
+    border:solid rgb(59, 61, 48) 2px;
+    background-color: rgb(235, 235, 235);
+    
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.product img{
+    padding: 80px 20px 30px 20px;
+    width:180px;
+}
+
+.description{
+    position: absolute;
+    top : -12px; left:-7px;
+    z-index: 1000;
+
+    /* border-top-color: rgb(77, 57, 45); */
+    /* border-left: none; border-right: none; */
+    border-radius: 8px;
+    background-color:rgb(105, 105, 116);
+    padding: 4px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+    font-size: 17px;
+    color: rgb(219, 219, 219);
+}
+
+.product_name, .writer, .product_price, .product_type{
+    font-size: 15px;
+    padding:6px;
+    
+}
+
+.product_name{
+    position: absolute;
+    top : 1px; right : 0px;
+    font-size: 23px;
+    z-index: 1001;
+    background-color: rgb(255, 238, 0);
+}
+
+.writer{
+    position: absolute;
+    top : 50px; right : 0px;
+    z-index: 1000;
+    background-color: rgb(234, 188, 255);
+}
+
+.product_price{
+    border-radius: 10px;
+    position: absolute;
+    bottom:-10px; right:10px;
+    z-index: 1000;
+    background-color: rgb(199, 216, 255);
+}
+
+.product_type{
+    border-radius: 10px;
+    position: absolute;
+    bottom:-10px; left:10px;
+    z-index: 1000;
+    background-color: rgb(176, 255, 231);
+}
+
+.noresult{
+    font-size: 20px;
+}
+
+footer{
+    width : 980px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+    font-size: 30px;
+    color : rgb(80, 73, 60);
+
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgb(255, 241, 161);
+}
+
+footer a{
+    color: rgb(83, 99, 41);
+}

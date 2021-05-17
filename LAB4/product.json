@@ -1,0 +1,272 @@
+[
+    {
+    "name" : "Life of Pi",
+    "price" : 8330,
+    "writer" : "Yann Marte",
+    "type" : "Novel"
+    },
+    {
+    "name" : "The Alchemist",
+    "price" : 7700,
+    "writer" : "Paulo Coelho",
+    "type" : "Novel"
+    },
+    {
+    "name" : "The Old Man and the Sea",
+    "price" : 9300,
+    "writer" : "Ernest Miller Hemingway",
+    "type" : "Novel"
+    },
+    {
+    "name" : "Animal Farm",
+    "price" : 7000,
+    "writer" : "George Orwell",
+    "type" : "Novel"
+    },
+
+  {
+    "name" : "The Giver",
+    "price" : 5500,
+    "writer" : "Lois Lowry",
+    "type" : "Novel"
+  },
+  {
+    "name" : "Holes",
+    "price" : 5900,
+    "writer" : "Louis Sachar",
+    "synopsis": "",
+    "type" : "Novel"
+  },
+  {
+    "name" : "1984",
+    "price" : 7400,
+    "writer" : "George Orwell",
+    "type" : "Novel"
+  },
+  {
+    "name" : "Nomadland",
+    "price" : 11470,
+    "writer" : "Jessica Bruder",
+    "type" : "Novel"
+  },
+  {
+    "name" : "Me Before You",
+    "price" : 8000,
+    "writer" : "Jojo Moyes",
+    "type" : "Novel"
+  },
+  {
+    "name" : "The Giving Tree",
+    "price" : 12000,
+    "writer" : "Shel Silverstein",
+    "type" : "Novel"
+  },
+  {
+    "name" : "The Origin of Species",
+    "price" : 3600,
+    "writer" : "Charles Darwin",
+    "type" : "Science"
+  },
+
+  {
+    "name" : "Essential Cell Biology",
+    "price" : 59000,
+    "writer" : "Bruce Alberts",
+    "type" : "Science"
+  },
+
+  {
+    "name" : "Enlightenment Now",
+    "price" : 14850,
+    "writer" : "Steven Pinker",
+    "type" : "Science"
+  },
+  {
+    "name" : "Logic",
+    "price" : 17670,
+    "writer" : "Wilfrid Hodges",
+    "type" : "Science"
+  },
+  {
+    "name" : "Brain Rules",
+    "price" : 18460,
+    "writer" : "John J. Medina",
+    "type" : "Science"
+  },
+  {
+    "name" : "Climate Change",
+    "price" : 11460,
+    "writer" : "Maslin, Mark",
+    "type" : "Science"
+  },
+  {
+    "name" : "How Emotions Are Made",
+    "price" : 20830,
+    "writer" : "Lisa Feldman Barrett",
+    "type" : "Science"
+  },
+  {
+    "name" : "Until the End of Time",
+    "price" : 17280,
+    "writer" : "Brian Greene",
+    "type" : "Science"
+  },
+  {
+    "name" : "Silent Spring",
+    "price" : 14320,
+    "writer" : "Rachel Carson",
+    "type" : "Science"
+  },
+  {
+    "name" : "Cosmos",
+    "price" : 12900,
+    "writer" : "Carl Sagan",
+    "type" : "Science"
+  },
+  {
+    "name" : "The Selfish Gene",
+    "price" : 16200,
+    "writer" : "Richard Dawkins",
+    "type" : "Science"
+  }, 
+   {
+    "name" : "Lab Girl",
+    "price" : 9170,
+    "writer" : "Hope Jahren",
+    "type" : "Science"
+  },
+  {
+    "name" : "The Body",
+    "price" : 17500,
+    "writer" : "Bill Bryson",
+    "type" : "Science"
+  },
+  {
+    "name" : "Sapiens",
+    "price" : 9500,
+    "writer" : "Yuval Noah Harari",
+    "type" : "Science"
+  },
+
+  {
+    "name" : "Who Moved My Cheese",
+    "price" : 6630,
+    "writer" : "Spencer Johnson",
+    "type" : "Self help"
+  },
+  {
+    "name" : "Notes to Myself",
+    "price" : 9020,
+    "writer" : "Hugh Prather",
+    "type" : "Self help"
+  },
+  {
+    "name" : "Outliers",
+    "price" : 7490,
+    "writer" : "Malcolm Gladwell",
+    "type" : "Self help"
+  },
+  {
+    "name" : "Atomic Habits",
+    "price" : 18000,
+    "writer" : "James Clear",
+    "type" : "Self help"
+  },
+  {
+    "name" : "The Last Lecture",
+    "price" : 11440,
+    "writer" : "Randolph Pausch",
+    "type" : "Self help"
+  },
+  {
+    "name" : "What I Know for Sure",
+    "price" : 20500,
+    "writer" : "Oprah Winfrey",
+    "type" : "Self help"
+  },
+  {
+    "name" : "Think and Grow Rich",
+    "price" : 7600,
+    "writer" : "Napoleon Hill",
+    "type" : "Self help"
+  },
+  {
+    "name" : "Big Magic",
+    "price" : 8560,
+    "writer" : "Elizabeth Gibert",
+    "type" : "Self help"
+  },
+  {
+    "name" : "How to Be Interesting",
+    "price" : 14990,
+    "writer" : "Jessica Hagy",
+    "type" : "Self help"
+  },
+  {
+    "name" : "Make Your Bed",
+    "price" : 11570,
+    "writer" : "William H. McRaven",
+    "type" : "Self help"
+  },
+
+  {
+    "name" : "Blue Ocean Strategy",
+    "price" : 35990,
+    "writer" : "Renee Mauborgne",
+    "type" : "Margeting"
+  },  
+  {
+    "name" : "This Is Marketing",
+    "price" : 27790,
+    "writer" : "Seth Godin",
+    "type" : "Margeting"
+  },
+  {
+    "name" : "The Big Picture",
+    "price" : 55000,
+    "writer" : "Christine Nordheilm",
+    "type" : "Margeting"
+  },
+  {
+    "name" : "Predictably Irrational",
+    "price" : 8560,
+    "writer" : "Dan Ariely",
+    "type" : "Margeting"
+  },
+  {
+    "name" : "Designing Brand Identity",
+    "price" : 145000,
+    "writer" : "Allina Wheeler",
+    "type" : "Margeting"
+  },
+  {
+    "name" : "Naked Conversations",
+    "price" : 27000,
+    "writer" : "Robert Scoble",
+    "type" : "Margeting"
+  },
+  {
+    "name" : "The Big Moo",
+    "price" : 22880,
+    "writer" : "Seth Godin",
+    "type" : "Margeting"
+  },
+  {
+    "name" : "Inside the Tornado",
+    "price" : 19670,
+    "writer" : "Geoffrey A. Moore",
+    "type" : "Margeting"
+  },
+  {
+    "name" : "Purple Cow",
+    "price" : 24700,
+    "writer" : "Seth Godin",
+    "type" : "Margeting"
+  },
+  {
+    "name" : "Outbounding",
+    "price" : 26620,
+    "writer" : "WILLIAM MILLER",
+    "type" : "Margeting"
+  }
+]
